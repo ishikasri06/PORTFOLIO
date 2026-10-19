@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ishika Srivastava — Software, Data & ML Engineer</title>
+    <meta
+      name="description"
+      content="Ishika Srivastava is a software engineer working across backend, data engineering and machine learning — building reliable applications and distributed data systems."
+    />
+    <meta name="author" content="Ishika Srivastava" />
+    <meta name="theme-color" content="#0a0c10" />
+    <link rel="canonical" href="https://ishikasri06.github.io/PORTFOLIO/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ishika Srivastava — Software, Data & ML Engineer" />
+    <meta
+      property="og:description"
+      content="Building reliable software, data systems, and intelligent applications."
+    />
+    <meta property="og:url" content="https://ishikasri06.github.io/PORTFOLIO/" />
+    <meta property="og:image" content="https://ishikasri06.github.io/PORTFOLIO/og.png" />
+    <meta property="og:site_name" content="Ishika Srivastava" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ishika Srivastava — Software, Data & ML Engineer" />
+    <meta
+      name="twitter:description"
+      content="Building reliable software, data systems, and intelligent applications."
+    />
+    <meta name="twitter:image" content="https://ishikasri06.github.io/PORTFOLIO/og.png" />
+
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the wrong theme.
+      (function () {
+        try {
+          // Dark-first: default to dark unless the visitor has chosen otherwise.
+          var stored = localStorage.getItem('theme');
+          var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          /* no-op */
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
